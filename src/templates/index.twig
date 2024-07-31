@@ -1,0 +1,190 @@
+{% extends 'base.twig' %}
+
+{% block content %}
+<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="/images/avatar.jpg" alt="" /></span>
+							<h1 id="title">RDH Projects</h1>
+							<p>Concepteur de projet web</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Introduction</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon solid fa-user">À propos de nous</span></a></li>
+								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contactez-nous</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-tiktok"><span class="label">Tiktok</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt text">RDH Projects</h2>
+								<p class="text">De la conception à la réalisation de votre projet Web</p>
+							</header>
+
+							<footer>
+								<a href="#portfolio" class="button scrolly text">En savoir plus</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Portfolio</h2>
+							</header>
+
+							<p>Une collection de nos travaux en conception web, 
+              mettant en lumière notre expertise dans la création de 
+              sites performants et esthétiques. Explorez nos projets 
+              pour voir comment nous pouvons transformer vos idées en réalité.</p>
+
+							<div class="row">
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="#" class="image fit"><img src="/images/p1.webp" alt="" /></a>
+										<header>
+											<h3>Projet 1</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="/images/p2.webp" alt="" /></a>
+										<header>
+											<h3>Projet 4</h3>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="#" class="image fit"><img src="/images/p3.webp" alt="" /></a>
+										<header>
+											<h3>Projet 2</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="/images/p4.webp" alt="" /></a>
+										<header>
+											<h3>Projet 5</h3>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="#" class="image fit"><img src="/images/p5.webp" alt="" /></a>
+										<header>
+											<h3>Projet 3</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="/images/p6.webp" alt="" /></a>
+										<header>
+											<h3>Projet 6</h3>
+										</header>
+									</article>
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>À propos de nous</h2>
+							</header>
+
+							<a href="#" class="image featured"><img src="/images/a_propos.png" alt="" /></a>
+
+							<p>Passionnés par le design web et le développement, 
+              nous transformons vos idées en expériences numériques captivantes. 
+              Avec plusieurs années d'expérience dans la conception de sites web innovants, 
+              nous nous engageons à créer des solutions sur mesure qui répondent aux besoins spécifiques de chaque client.</p>
+
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contactez-nous</h2>
+							</header>
+
+							<p>Chaque projet commence par une conversation. Dites-nous en plus 
+              sur ce que vous avez en tête, et ensemble, nous trouverons la meilleure façon de concrétiser vos idées.</p>
+
+							<form method="post" action="#">
+								<div class="row">
+									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Nom" /></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="E-mail" /></div>
+									<div class="col-12">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+									<div class="col-12">
+										<input type="submit" value="Envoyer un message" />
+									</div>
+								</div>
+							</form>
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; 2024 RDH Projects</li>
+					</ul>
+
+			</div>
+{% endblock %}
+
+{% block js %}
+<!-- Scripts -->
+<script src="/js/jquery.min.js"></script>
+<script src="/js/jquery.scrolly.min.js"></script>
+<script src="/js/jquery.scrollex.min.js"></script>
+<script src="/js/browser.min.js"></script>
+<script src="/js/breakpoints.min.js"></script>
+<script src="/js/util.js"></script>
+<script src="/js/main.js"></script>
+{% endblock %}
+
